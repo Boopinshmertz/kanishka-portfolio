@@ -57,18 +57,18 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
 .hero-sub{margin-top:32px;font-size:1.05rem;color:var(--body);line-height:1.78;max-width:520px;opacity:0;animation:fadeUp .8s .4s forwards;}
 .hero-sub strong{color:var(--white);font-weight:600;}
 .hero-ctas{margin-top:44px;display:flex;gap:14px;align-items:center;opacity:0;animation:fadeUp .8s .55s forwards;}
-.btn-zap{padding:13px 28px;background:var(--zap);color:var(--black);font-family:var(--mono);font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:all .2s;}
+.btn-zap{padding:13px 28px;background:var(--zap);color:var(--black);font-family:var(--mono);font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:all .2s;display:inline-flex;align-items:center;justify-content:center;}
 .btn-zap:hover{background:#f06a45;transform:translateY(-2px);}
-.btn-out{padding:13px 28px;background:transparent;color:var(--white);font-family:var(--mono);font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border:1px solid var(--bdr);transition:all .28s ease;}
+.btn-out{padding:13px 28px;background:transparent;color:var(--white);font-family:var(--mono);font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border:1px solid var(--bdr);transition:all .28s ease;display:inline-flex;align-items:center;justify-content:center;}
 .btn-out:hover{border-color:var(--zap);color:var(--zap);}
 .btn-cta{background:linear-gradient(135deg,var(--zdim),rgba(232,81,42,0.02));border-color:rgba(232,81,42,0.35);box-shadow:0 14px 34px rgba(232,81,42,0.08);}
 .btn-cta:hover{background:rgba(232,81,42,0.1);transform:translateY(-2px);box-shadow:0 18px 40px rgba(232,81,42,0.14);}
 
 .hero-right{display:flex;flex-direction:column;border-left:1px solid var(--bdr);padding-left:44px;padding-bottom:8px;opacity:0;animation:fadeIn 1s .7s forwards;}
-.kpi{padding:24px 0;border-bottom:1px solid var(--bdr);transition:transform .28s ease, box-shadow .28s ease, border-color .28s ease;}
+.kpi{padding:24px 0;border-bottom:1px solid var(--bdr);transition:transform .32s ease, box-shadow .32s ease, border-color .32s ease;}
 .kpi:first-child{padding-top:0;}
 .kpi:last-child{border-bottom:none;}
-.kpi:hover{transform:scale(1.025);box-shadow:0 0 0 1px rgba(232,81,42,0.18),0 24px 40px rgba(232,81,42,0.08);border-color:rgba(232,81,42,0.35);}
+.kpi:hover{transform:scale(1.02);box-shadow:0 0 0 1px rgba(232,81,42,0.16),0 20px 34px rgba(232,81,42,0.07);border-color:rgba(232,81,42,0.3);}
 .kv{font-family:var(--serif);font-size:2.7rem;font-weight:900;line-height:1;letter-spacing:-0.03em;}
 .kv em{color:var(--zap);font-style:normal;}
 .kl{font-family:var(--mono);font-size:0.57rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-top:5px;line-height:1.55;}
@@ -116,12 +116,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
 .tr{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px;}
 .tg{font-family:var(--mono);font-size:0.57rem;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--bdr);color:var(--muted);}
 .tg.on{border-color:var(--zap);color:var(--zap);background:var(--zdim);}
-.cd{font-size:0.92rem;color:var(--body);line-height:1.75;}
-.nc{margin-top:14px;padding:12px 16px;background:var(--zdim);border-left:2px solid var(--zap);font-size:0.82rem;color:var(--white);line-height:1.65;}
+.cd{font-size:0.92rem;color:var(--body);line-height:1.82;margin-top:4px;}
+.nc{margin-top:18px;padding:14px 16px;background:var(--zdim);border-left:2px solid var(--zap);font-size:0.82rem;color:var(--white);line-height:1.72;}
 .nc strong{color:var(--zap);}
 
 .ms{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--bdr);border:1px solid var(--bdr);margin-bottom:48px;}
-.mc{background:var(--black);padding:26px 20px;transition:background .2s;}
+.mc{background:var(--black);padding:28px 22px;transition:background .24s ease;}
 .mc:hover{background:var(--surf);}
 .mv{font-family:var(--serif);font-size:1.85rem;font-weight:900;line-height:1;margin-bottom:7px;letter-spacing:-0.02em;}
 .mv em{color:var(--zap);font-style:normal;}
@@ -145,19 +145,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
 .gnum{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:var(--zap);}
 
 .cg{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--bdr);margin-bottom:48px;}
-.cc{background:var(--black);padding:26px;position:relative;overflow:hidden;transition:background .28s ease, transform .28s ease, box-shadow .28s ease;}
+.cc{background:var(--black);padding:28px;position:relative;overflow:hidden;transition:background .32s ease, transform .32s ease, box-shadow .32s ease;}
 .cc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--zap);}
-.cc:hover{background:var(--surf);transform:translateY(-4px);box-shadow:0 22px 40px rgba(0,0,0,0.28);}
+.cc:hover{background:var(--surf);transform:translateY(-3px);box-shadow:0 18px 34px rgba(0,0,0,0.26);}
 .creg{font-family:var(--mono);font-size:0.57rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--zap);margin-bottom:12px;}
 .cbig{font-family:var(--serif);font-size:2rem;font-weight:900;line-height:1;letter-spacing:-0.02em;margin-bottom:4px;}
 .csub{font-family:var(--mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);}
 .cdet{margin-top:12px;padding-top:10px;border-top:1px solid var(--bdr);font-family:var(--mono);font-size:0.57rem;color:var(--muted);line-height:1.65;}
 .cdet em{color:var(--zap);font-style:normal;display:block;margin-top:3px;}
-.orion-note{margin:22px 0 0;max-width:620px;font-size:0.84rem;color:var(--body);line-height:1.72;}
+.orion-note{margin:24px 0 0;max-width:620px;font-size:0.84rem;color:var(--body);line-height:1.76;}
 .orion-note strong{color:var(--white);}
 .method-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;margin-top:40px;}
 .method-list{border-top:1px solid var(--bdr);}
-.method-step{display:grid;grid-template-columns:76px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--bdr);align-items:start;}
+.method-step{display:grid;grid-template-columns:76px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--bdr);align-items:start;}
 .method-no{font-family:var(--mono);font-size:0.58rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--zap);padding-top:4px;}
 .method-title{font-family:var(--serif);font-size:1.18rem;font-weight:700;line-height:1.2;margin-bottom:4px;}
 .method-body{font-size:0.84rem;color:var(--body);line-height:1.7;max-width:460px;}
@@ -169,7 +169,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
 .kill-arrow{color:var(--zap);}
 
 .bg2{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--bdr);border:1px solid var(--bdr);margin-top:32px;}
-.bi{background:var(--black);padding:20px 24px;display:flex;gap:12px;align-items:flex-start;transition:background .2s;}
+.bi{background:var(--black);padding:22px 26px;display:flex;gap:12px;align-items:flex-start;transition:background .24s ease;}
 .bi:hover{background:var(--surf);}
 .bdot{width:5px;height:5px;background:var(--zap);flex-shrink:0;margin-top:9px;}
 .bt{font-size:0.87rem;color:var(--body);line-height:1.65;}
@@ -247,7 +247,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
 .the-ask{display:inline-block;margin:0 auto 44px;padding:14px 28px;background:var(--zdim);border:1px solid rgba(240,194,53,0.25);font-family:var(--mono);font-size:0.65rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--zap);line-height:1.7;}
 
 .ctr{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
-.cl{font-family:var(--mono);font-size:0.63rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--body);text-decoration:none;padding:11px 18px;border:1px solid var(--bdr);display:inline-flex;align-items:center;gap:7px;transition:all .2s;}
+.cl{font-family:var(--mono);font-size:0.63rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--body);text-decoration:none;padding:11px 18px;border:1px solid var(--bdr);display:inline-flex;align-items:center;justify-content:center;gap:7px;transition:all .2s;}
 .cl:hover{border-color:var(--zap);color:var(--zap);background:var(--zdim);}
 .cta-primary{padding:15px 30px;background:var(--zap);color:var(--black);border-color:var(--zap);font-weight:600;box-shadow:0 20px 40px rgba(232,81,42,0.14);}
 .cta-primary:hover{background:#f06a45;color:var(--black);transform:translateY(-2px);box-shadow:0 24px 48px rgba(232,81,42,0.18);}
@@ -266,16 +266,27 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
   nav{padding:0 20px;}
   .nav-links{display:none;}
   #hero{grid-template-columns:1fr;padding:120px 20px 60px;}
-  .hero-right{border-left:none;border-top:1px solid var(--bdr);padding:28px 0 0;flex-direction:row;flex-wrap:wrap;}
-  .kpi{padding:14px 20px 14px 0;border-bottom:none;border-right:1px solid var(--bdr);}
-  .kpi:last-child{border-right:none;}
-  .fit-band{padding:22px 20px 36px;}
+  .hero-ctas{flex-direction:column;align-items:stretch;gap:10px;}
+  .btn-zap,.btn-out{width:100%;text-align:center;justify-content:center;}
+  .hero-right{border-left:none;border-top:1px solid var(--bdr);padding:24px 0 0;flex-direction:column;gap:0;}
+  .kpi{width:100%;padding:22px 0;border-right:none;border-bottom:1px solid var(--bdr);}
+  .kpi:last-child{border-bottom:none;}
+  .fit-band{padding:24px 20px 32px;}
   .fit-box{grid-template-columns:1fr;gap:14px;}
+  .fit-copy{font-size:0.88rem;line-height:1.75;}
+  .fit-list{gap:8px;margin:10px 0 10px;}
   .sw,#voice,#proof,#contact{padding:60px 20px;}
   .ci,.ag,.ml2,.skl,.voice-grid,.method-wrap{grid-template-columns:1fr;gap:36px;}
   .ms,.cg{grid-template-columns:repeat(2,1fr);}
   .bg2,.eg,.mm2,.skg{grid-template-columns:1fr;}
-  .method-step{grid-template-columns:1fr;gap:8px;}
+  .bg2{margin-top:24px;}
+  .mc{padding:24px 20px;}
+  .cc{padding:26px 22px;}
+  .bi{padding:24px 20px;}
+  .cd{line-height:1.88;}
+  .nc{margin-top:18px;padding:16px 16px;line-height:1.8;}
+  .method-step{grid-template-columns:1fr;gap:10px;padding:18px 0;}
+  .the-ask{width:100%;padding:14px 18px;font-size:0.6rem;line-height:1.8;text-align:left;}
   .voice-right{border-left:none;padding-left:0;border-top:1px solid var(--bdr);padding-top:32px;}
   .phil-item::before{display:none;}
   .foot{flex-direction:column;gap:8px;text-align:center;padding:16px 20px;}
@@ -331,7 +342,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
       See what<br><em>zero looks like</em><br>after I'm done.
     </h1>
     <p class="hero-sub">
-      I walk into companies with no brand, no pipeline, no playbook, building the system that generates demand. <strong>I don't manage marketing. I build it.</strong>
+      I step into companies with no pipeline, no demand engine, and no repeatable growth system, then build the structure that turns attention into revenue. <strong>I don't manage marketing. I build revenue engines.</strong>
     </p>
     <div class="hero-ctas">
       <a href="#orion" class="btn-zap">See The Work ↓</a>
@@ -410,9 +421,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
         <span class="tg on">Demand Gen</span><span class="tg">Content Strategy</span>
         <span class="tg">Global Campaigns</span><span class="tg on">GA4</span>
       </div>
-      <p class="cd">Orion builds NAU, a cloud-based suite for fleet management, QHSSE, and maritime compliance. I joined as marketer zero. No brand, no pipeline, no playbook. Just a product and a brief.</p>
-      <div class="nc"><strong>Context matters:</strong> Maritime SaaS is one of the world's most niche B2B verticals. TAM is global but razor-thin. Fleet operators, port authorities, shipping conglomerates. Every 100 users here is a qualified decision-maker in a high-value, 6–18 month deal. Amsterdam, Helsinki, Lanzhou organically. The ICP found <strong>us</strong>.</div>
-      <p class="orion-note">In a niche industry with limited TAM, <strong>each conversion represents a high-value decision-maker</strong>, not just another dashboard number.</p>
+      <p class="cd">Orion builds NAU, a cloud-based suite for fleet management, QHSSE, and maritime compliance.</p>
+      <p class="cd">I joined as marketer zero with no brand system, no demand engine, and no repeatable growth motion.</p>
+      <p class="cd">The mandate: build pipeline from zero, in a market where every deal matters.</p>
+      <div class="nc"><strong>Context matters:</strong> Maritime SaaS is a narrow, high-value market. The audience is small, global, and difficult to reach. Fleet operators, compliance heads, and enterprise shipping stakeholders do not convert casually. There is no room for noise. Only precision.</div>
+      <p class="orion-note">Generated consistent inbound interest from enterprise maritime operators in a high-ticket, long-cycle sales environment where every qualified signal mattered.<br>This wasn’t growth. This was building a system that consistently generated qualified inbound in a long-cycle B2B environment.</p>
     </div>
   </div>
 
@@ -459,7 +472,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
       <div class="creg">HK + Singapore · Brand Awareness</div>
       <div class="cbig">1.21%</div>
       <div class="csub">CTR. Strong for B2B LinkedIn</div>
-      <div class="cdet">401K impressions · 4,865 clicks · ₹35.5K spend<em>HK & Singapore = Asia's top maritime & shipping finance hubs</em></div>
+      <div class="cdet">401K impressions · 4,865 clicks · ₹35.5K spend<em>HK &amp; Singapore = Asia's top maritime &amp; shipping finance hubs</em></div>
     </div>
     <div class="cc">
       <div class="creg">InspectNAU Video · Website Conversions</div>
@@ -489,33 +502,33 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
       <div class="method-list">
         <div class="method-step">
           <div class="method-no">01</div>
-          <div><div class="method-title">ICP Identification</div><p class="method-body">Mapped the smallest valuable audience first: fleet operators, compliance stakeholders, and maritime decision-makers with actual buying power.</p></div>
+          <div><div class="method-title">ICP Identification</div><p class="method-body">Focused on fleet operators and compliance leaders with buying authority.</p></div>
         </div>
         <div class="method-step">
           <div class="method-no">02</div>
-          <div><div class="method-title">Narrative Creation</div><p class="method-body">Built a sharp market story around operational clarity, compliance pressure, and why the product mattered now.</p></div>
+          <div><div class="method-title">Narrative Creation</div><p class="method-body">Framed the product around compliance pressure and operational efficiency.</p></div>
         </div>
         <div class="method-step">
           <div class="method-no">03</div>
-          <div><div class="method-title">Channel Strategy</div><p class="method-body">Matched message to channel: LinkedIn for precision reach, content for credibility, organic search for compounding intent.</p></div>
+          <div><div class="method-title">Channel Strategy</div><p class="method-body">Went LinkedIn-first, supported by content that compounded trust.</p></div>
         </div>
         <div class="method-step">
           <div class="method-no">04</div>
-          <div><div class="method-title">Iteration (Kill + Scale)</div><p class="method-body">Cut weak ideas early, doubled down on signals fast, and kept the system focused on what moved qualified attention.</p></div>
+          <div><div class="method-title">Iteration (Kill + Scale)</div><p class="method-body">Cut weak performers early and scaled what earned qualified attention.</p></div>
         </div>
         <div class="method-step">
           <div class="method-no">05</div>
-          <div><div class="method-title">Measurement (GA4 + Reporting)</div><p class="method-body">Installed reporting discipline with GA4, campaign tracking, and weekly visibility so leadership could see what was real.</p></div>
+          <div><div class="method-title">Measurement (GA4 + Reporting)</div><p class="method-body">Tracked everything through GA4 and weekly reporting discipline.</p></div>
         </div>
       </div>
     </div>
     <aside class="kill-box">
       <div class="lbl">What I Killed</div>
       <ul class="kill-list">
-        <li><strong>Generic awareness campaigns</strong> <span class="kill-arrow">→</span> removed when intent stayed soft.</li>
-        <li><strong>Broad targeting</strong> <span class="kill-arrow">→</span> replaced with ICP-first segmentation.</li>
-        <li><strong>Overdesigned creatives</strong> <span class="kill-arrow">→</span> simplified for faster comprehension and stronger CTR.</li>
-        <li><strong>Reporting theater</strong> <span class="kill-arrow">→</span> cut in favor of signal, conversion quality, and market fit.</li>
+        <li><strong>Broad targeting</strong> <span class="kill-arrow">→</span> cut.</li>
+        <li><strong>Generic awareness</strong> <span class="kill-arrow">→</span> removed.</li>
+        <li><strong>Overdesigned creatives</strong> <span class="kill-arrow">→</span> simplified.</li>
+        <li><strong>Vanity reporting</strong> <span class="kill-arrow">→</span> replaced with pipeline signals.</li>
       </ul>
     </aside>
   </div>
@@ -555,19 +568,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
   <div class="eg reveal">
     <div class="ec">
       <div class="eco">SGT University · 2022–23</div>
-      <div class="er">Content Creator &<br>Digital Marketer</div>
+      <div class="er">Content Creator &amp;<br>Digital Marketer</div>
       <p class="eb">Owned content end-to-end across Instagram and YouTube. <strong>1M+ total views.</strong> Built analytics-backed workflows and stronger CTA paths to web conversion.</p>
       <div class="ey">Oct 2022 – Mar 2023</div>
     </div>
     <div class="ec">
       <div class="eco">Attic India · D2C Fashion · 2020–21</div>
-      <div class="er">Brand & Content Lead</div>
+      <div class="er">Brand &amp; Content Lead</div>
       <p class="eb"><strong>Grew Instagram to 8K in months.</strong> Produced content for <strong>8K+ SKUs</strong>, ran influencer campaigns, and supported e-commerce growth through content operations.</p>
       <div class="ey">Oct 2020 – Mar 2021</div>
     </div>
     <div class="ec">
       <div class="eco">White Frog · We-Chitra · 2018–20</div>
-      <div class="er">Photographer &<br>Visual Storyteller</div>
+      <div class="er">Photographer &amp;<br>Visual Storyteller</div>
       <p class="eb"><strong>30+ weddings and travel campaigns</strong> for Cox &amp; Kings and tourism boards. This is where the eye was built and the instinct for attention started.</p>
       <div class="ey">2018 – 2020</div>
     </div>
@@ -583,7 +596,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
     </div>
     <div class="skg reveal">
       <div>
-        <p class="sgl">Strategy & Growth</p>
+        <p class="sgl">Strategy &amp; Growth</p>
         <div class="skt">
           <span class="st">B2B SaaS GTM</span><span class="st">Founding Marketing</span>
           <span class="st">Demand Generation</span><span class="st">ICP Definition</span>
@@ -592,7 +605,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
         </div>
       </div>
       <div>
-        <p class="sgl">Execution & Channels</p>
+        <p class="sgl">Execution &amp; Channels</p>
         <div class="skt">
           <span class="st">LinkedIn Ads</span><span class="st">Meta Ads</span>
           <span class="st">Google Ads</span><span class="st">Email Marketing</span>
@@ -601,7 +614,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
         </div>
       </div>
       <div>
-        <p class="sgl">Analytics & CRM</p>
+        <p class="sgl">Analytics &amp; CRM</p>
         <div class="skt">
           <span class="st">GA4</span><span class="st">LinkedIn Campaign Mgr</span>
           <span class="st">HubSpot</span><span class="st">SEMrush</span>
@@ -609,7 +622,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 60px;height:64px;d
         </div>
       </div>
       <div>
-        <p class="sgl">Creative & Production</p>
+        <p class="sgl">Creative &amp; Production</p>
         <div class="skt">
           <span class="st">Brand Positioning</span><span class="st">Visual Storytelling</span>
           <span class="st">Video Production</span><span class="st">Canva</span>
